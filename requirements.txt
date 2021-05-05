@@ -1,0 +1,45 @@
+# Push to package registry
+twine==3.2.0
+
+# code quality
+nplusone>=1.0.0,<2.0
+wemake-python-styleguide>=0.14.0,<0.15  # new 0.14.1
+flake8-pytest>=1.3,<2.0
+flake8-pytest-style>=1.2.1,<2.0         # new 1.3.0
+flake8-django>=1.1.1,<2.0
+flake8-logging-format>=0.6.0,<1.0
+pydocstyle>=5.0.2                       # new 5.1.1
+dotenv-linter>=0.1.3,<2.0
+yamllint>=1.14.0,<2.0                   # new 1.25.0
+pre-commit>=1.14.2,<2.0                 # new 2.7.1
+xenon>=0.5.4,<1.0                       # new 0.7.1
+mypy==0.761                             # new 0.782
+safety>=1.8.4,<2.0                      # new 1.9.0
+isort<5.0                               # new 5.6.1
+# pylint-django>=2.0.15,3.0
+# django-migration-linter>=2.4.0,<3.0  todo: https://github.com/3YOURMIND/django-migration-linter
+# todo: https://github.com/ShudelEV/django_project_skeleton/blob/master/requirements.txt
+
+# tests
+pytest>=6.0.2,<7.0                      # new 6.1.1
+pytest-django==4.1.0
+pytest-cov>=2.10.1,<3.0
+pytest-randomly>=3.4.1,<4.0
+pytest-deadfixtures>=2.2.1,<3.0
+pytest-testmon>=1.0.3,<2.0
+pytest-timeout>=1.4.2,<2.0
+coverage>=5.2.1                         # 5.3
+factory_boy>=2.11.1,<2.12.0
+testcontainers>=2.5,<3.0                # new 3.1.0
+responses>=0.10.6,<1.0                  # new 0.12.0
+hypothesis>=5.15.1,<6.0                 # new 5.37.1
+# tavern>=1.2.2,<2.0
+
+# docs
+sphinx>=3.0
+sphinx-autodoc-typehints>=1.6.0,<2.0    # new 1.11.0
+doc8>=0.8.0,<1.0                        # new 0.8.1
+
+# localizations
+dennis>=0.9,<1.0
+blessings>=1.7,<2.0
