@@ -1,8 +1,8 @@
 FROM python:3.8-slim-buster
 
 COPY requirements.txt /requirements.txt
-RUN apt-get update -qq && \
-    apt-get install -q -y --no-install-recommends gettext libpq-dev gcc && \
+RUN apt-get update -q && \
+    apt-get install -y --no-install-recommends gettext libpq-dev python3.8-dev gcc && \
     pip install --upgrade pip && \
     pip install -r requirements.txt && \
     apt-get --purge remove gcc && rm -rf /var/lib/apt/lists/*
