@@ -14,6 +14,3 @@ doc8>=0.8.0,<1.0                        # new 0.8.1
 # localizations
 dennis>=0.9,<1.0
 blessings>=1.7,<2.0
-
-# common package
-psycopg2==2.8.5
