@@ -1,4 +1,4 @@
-FROM python:slim-stretch
+FROM python:3.8-slim-buster
 
 COPY requirements.txt /requirements.txt
 RUN apt-get update -qq && \
