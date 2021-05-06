@@ -2,7 +2,7 @@ FROM python:3.8-slim-buster
 
 COPY requirements.txt /requirements.txt
 RUN apt-get update -q && \
-    apt-get install -y --no-install-recommends gettext libpq-dev librdkafka-dev python3-dev gcc && \
+    apt-get install -y --no-install-recommends gettext libpq-dev librdkafka-dev python3-dev gcc curl && \
     pip install --upgrade pip && \
     pip install -r requirements.txt && \
      rm -rf /var/lib/apt/lists/*
