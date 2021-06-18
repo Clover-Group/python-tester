@@ -6,9 +6,9 @@ RUN apt-get update -q && \
     pip install --upgrade pip && \
     pip install -r requirements.txt && \
      rm -rf /var/lib/apt/lists/*
-RUN groupadd -r python && \
-    useradd -r -g python python && \
-    mkdir -p /home/python && \
-    chown -R python:python /home/python
-USER python
-WORKDIR /home/python
+#RUN groupadd -r python && \
+#    useradd -r -g python python && \
+#    mkdir -p /home/python && \
+#    chown -R python:python /home/python
+#USER python
+#WORKDIR /home/python
