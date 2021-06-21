@@ -1,5 +1,6 @@
 # push to package registry
 twine==3.2.0
+wheel==0.36.2
 
 # tests
 pytest==6.2.*
